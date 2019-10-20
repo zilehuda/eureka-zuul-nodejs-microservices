@@ -1,0 +1,17 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "User service application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "zilehuda",
+  "license": "ISC",
+  "dependencies": {
+    "eureka-js-client": "^4.5.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
